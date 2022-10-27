@@ -63,6 +63,19 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }
     }
+    func authenticateUser(username: String, password: String) {
+        if username.lowercased() == "leo123" {
+            wrongUsername = 0
+            if password.lowercased() == "wall321" {
+                wrongPassword = 0
+                showingLoginScreen = true
+            } else {
+                wrongPassword = 2
+            }
+        } else {
+            wrongUsername = 2
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
