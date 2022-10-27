@@ -45,7 +45,7 @@ struct ContentView: View {
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
                     Button("login"){
-                        //Authentication Logic
+                        authenticateUser(username: username, password: password)
                     }
                     .padding()
                     .frame(width: 300, height: 50)
