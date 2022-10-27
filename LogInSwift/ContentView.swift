@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Login Page!")
-            .padding()
+        NavigationView {
+            ZStack {
+                Color.blue
+                    .ignoresSafeArea()
+                Text("Hello, Login Page!")
+                    .padding()
+            }
+        }
     }
 }
 
