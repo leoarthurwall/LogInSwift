@@ -38,7 +38,7 @@ struct ContentView: View {
                         .background(Color.white)
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
-                    TextField("Password", text: $password)
+                    SecureField("Password", text: $password)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.white)
