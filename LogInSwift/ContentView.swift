@@ -44,7 +44,13 @@ struct ContentView: View {
                         .background(Color.white)
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
-
+                    Button("login"){
+                        //Authentication Logic
+                    }
+                    .padding()
+                    .frame(width: 300, height: 50)
+                    .background(Color.blue)
+                    .foregroundColor(Color.white)
                     
                 }
                 
