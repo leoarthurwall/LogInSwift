@@ -26,11 +26,18 @@ struct ContentView: View {
                     .scale(1.35)
                     .foregroundColor(.white.opacity(0.75))
                 VStack {
-                    Text("Login")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.blue)
-                        .padding()
+                    HStack {
+                        Image(systemName: "figure.wave")
+                            .font(.system(size: 40))
+                            .foregroundColor(Color.blue)
+                        
+                        Text("Login")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.blue)
+                            .padding([.top, .bottom, .trailing])
+                    }
+                    
                         
                     TextField("Username", text: $username)
                         .padding()
