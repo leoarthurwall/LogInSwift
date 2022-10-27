@@ -18,9 +18,18 @@ struct ContentView: View {
                     .foregroundColor(.white.opacity(0.15))
                 Circle()
                     .scale(1.35)
-                    .foregroundColor(.white.opacity(0.15))
+                    .foregroundColor(.white.opacity(0.75))
+                VStack {
+                    Text("Login")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    
+                }
+                
                
             }
+            .navigationBarHidden(true)
         }
     }
 }
