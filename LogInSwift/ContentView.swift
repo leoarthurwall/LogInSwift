@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var username = ""
-    @State private var passwork = ""
+    @State private var password = ""
     @State private var wrongUsername = 0
     @State private var wrongPassword = 0
     @State private var showingLoginScreen = false
@@ -38,6 +38,12 @@ struct ContentView: View {
                         .background(Color.white)
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
+                    TextField("Password", text: $password)
+                        .padding()
+                        .frame(width: 300, height: 50)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .border(.red, width: CGFloat(wrongPassword))
 
                     
                 }
