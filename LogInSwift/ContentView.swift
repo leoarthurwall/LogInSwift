@@ -29,7 +29,16 @@ struct ContentView: View {
                     Text("Login")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.blue)
+                        .padding()
+                        
+                    TextField("Username", text: $username)
+                        .padding()
+                        .frame(width: 300, height: 50)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .border(.red, width: CGFloat(wrongUsername))
+
                     
                 }
                 
