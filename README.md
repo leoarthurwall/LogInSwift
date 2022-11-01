@@ -20,3 +20,5 @@ This project layered upon the experience of the previous SwiftUI projects.
 - Text Field & Secure Field
 - State
 - If Else statements
+- Developing a clean UI
+- SF Symbols
