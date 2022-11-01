@@ -14,3 +14,11 @@ If you enter the username or password incorrectly, the respective textfield will
 
 <img src="https://user-images.githubusercontent.com/99083396/199230010-64b8a75f-9351-40f3-a851-49150dae1bc2.png" width="250">
 
+## Key Learning Takeaways 
+
+This project layered upon the experience of the previous SwiftUI projects.
+
+- Private var
+- Text Field & Secure Field
+- State
+- If Else statements
