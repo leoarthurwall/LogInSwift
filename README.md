@@ -7,8 +7,6 @@ A login page with basic athentication using - SwiftUI & XCode
 With this login page project, if you enter the username and password correctly, you can access the app and redirected to a main view.
 
 <img src="https://user-images.githubusercontent.com/99083396/199229941-981f647c-bbc6-49fc-9562-fda8a7ebe0b6.png" width="250">
-![Simulator Screen Shot - iPhone 13 Pro Max - 2022-11-01 at 13 06 28](https://user-images.githubusercontent.com/99083396/199229941-981f647c-bbc6-49fc-9562-fda8a7ebe0b6.png)
-
 
 If you enter the username or password incorrectly, the respective textfield will be highlighter in a red border and you will not be able to enter the app.
 
